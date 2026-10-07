@@ -1,21 +1,35 @@
-## Sensors Used
-### GYRO & ACCELEROMETER
+## Hardware Specifications
 
-- MPU6500 / MPU 9250 - SPI/I2C
-- MPU 6050 - I2C
+### 1. Sensors & Navigation
 
-### BAROMETER 
+* **IMU (Gyroscope & Accelerometer)**
+  * **MPU6500 / MPU9250** — Interface: SPI / $I^2C$
+  * **MPU6050** — Interface: $I^2C$
+* **Barometer**
+  * **BMP280** — Interface: $I^2C$ (Altitude & pressure sensing)
 
-- BMP280 - I2C
+---
 
-## ESCs (Motor Controllers)
-- 4 Idk 30A ESCs
-insert image
+### 2. Propulsion System
 
-## MOTORS (BLDC)
-- 4 Brushless 1400KV DC Motors
-insert image
+#### Electronic Speed Controllers (ESCs)
+* **Quantity:** 4x
+* **Type:** Generic 30A ESCs
+* **Continuous Current:** 30A
 
-## FRAME
--
+![30A ESC](docs/assets/images/esc.png)
 
+#### Motors (BLDC)
+* **Quantity:** 4x
+* **Type:** Brushless DC (BLDC)
+* **Velocity Constant:** 1400KV
+
+![1400KV BLDC Motor](docs/assets/images/motor.png)
+
+---
+
+### 3. Airframe
+
+* **Type:** Quadcopter Frame (X-Configuration)
+* **Wheelbase / Size:** *[e.g., 450mm]*
+* **Material:** *[e.g., Carbon Fiber / Nylon / Glass Fiber]*
