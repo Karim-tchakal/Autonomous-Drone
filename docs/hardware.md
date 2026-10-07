@@ -31,5 +31,3 @@
 ### 3. Airframe
 
 * **Type:** Quadcopter Frame (X-Configuration)
-* **Wheelbase / Size:** *[e.g., 450mm]*
-* **Material:** *[e.g., Carbon Fiber / Nylon / Glass Fiber]*
