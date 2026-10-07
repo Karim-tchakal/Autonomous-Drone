@@ -24,7 +24,7 @@
 * **Type:** Brushless DC (BLDC)
 * **Velocity Constant:** 1400KV
 
-![1400KV BLDC Motor](docs/assets/images/motor.png)
+![1400KV BLDC Motor](assets/images/motor.png)
 
 ---
 
